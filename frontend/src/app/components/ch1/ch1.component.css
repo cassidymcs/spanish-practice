@@ -1,0 +1,29 @@
+html, body {
+    height: 100%;
+}
+body{
+    background: wheat;
+    
+}
+#container{
+    background: wheat;
+    min-height: 100vh;
+}
+
+.title {
+    width: 80%;
+    margin: 0 auto;
+    font-family: "Helvetica Neue", "Arial", sans-serif;
+    font-style: bold;
+    font-weight: 100;
+    font-variant-ligatures: normal;
+    font-size: 10vw;
+    letter-spacing: 1px;
+}
+
+.vocab-container{
+    font-family: Palatino, URW Palladio L, serif;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+}
+
