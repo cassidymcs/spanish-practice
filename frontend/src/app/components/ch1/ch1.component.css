@@ -26,4 +26,46 @@ body{
     display: grid;
     grid-template-columns: repeat(6, 1fr);
 }
+.section-title{
+    font-size: large;
+}
+
+.vocab-word{
+    color: darkgreen;
+    font-weight: bolder;
+    font-style: italic;
+}
+
+.exercise-container{
+    justify-content: center;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 90%;
+    margin: auto;
+    box-shadow:  0 0 10px  rgba(0,0,0,0.6);
+  }
+  
+  td, th {
+    border: 1px solid black;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: white;
+  }
+  tr:nth-child(odd) {
+    background-color: rgb(252, 222, 158);
+  }
+
+img{
+    border-radius: 50px;
+    box-shadow:  0 0 10px  rgba(0,0,0,0.6);
+}
+
+  
+ 
 
